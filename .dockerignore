@@ -1,0 +1,6 @@
+# comments
+/for_readme
+/.pytest_cache
+/venv
+/README.MD
+.gitignore

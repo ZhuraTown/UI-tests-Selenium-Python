@@ -1,0 +1,28 @@
+{
+    "chrome": {
+        "default": "100.0",
+        "versions": {
+            "100.0": {
+                "image": "selenoid/chrome:100.0",
+                "port": "4444",
+                "path": "/",
+                "env" : ["LANG=ru_RU.UTF-8", "LANGUAGE=ru:en", "LC_ALL=ru_RU.UTF-8"],
+                "volumes": ["simple-solution-ui-test_shared-tmpfs:/home/selenium/Downloads"]
+            },
+            "85.0": {
+                "image": "selenoid/chrome:85.0",
+                "port": "4444",
+                "path": "/",
+                "env" : ["LANG=ru_RU.UTF-8", "LANGUAGE=ru:en", "LC_ALL=ru_RU.UTF-8"],
+                "volumes": ["simple-solution-ui-test_shared-tmpfs:/home/selenium/Downloads"]
+            },
+            "80.0": {
+                "image": "selenoid/chrome:80.0",
+                "port": "4444",
+                "path": "/",
+                "env" : ["LANG=ru_RU.UTF-8", "LANGUAGE=ru:en", "LC_ALL=ru_RU.UTF-8"],
+                "volumes": ["simple-solution-ui-test_shared-tmpfs:/home/selenium/Downloads"]
+            }
+        }
+    }
+}

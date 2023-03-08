@@ -1,0 +1,10 @@
+.idea
+*.log
+.json
+.env
+__pycache__/
+venv
+/download
+/results_reports
+.pytest_cache
+
